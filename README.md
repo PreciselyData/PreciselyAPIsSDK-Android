@@ -55,7 +55,7 @@ The following platforms are supported by Precisely SDKs:
 *	[Java](https://developer.precisely.com/apis/docs/index.html#Java%20SDK/java_intro.html)
 *	[C#](https://developer.precisely.com/apis/docs/index.html#C_sdk/java_intro.html)  
 
-[Click here](https://developer.precisely.com/apis/docs/index.html) for detailed Documentation on Precisely APIs 
+[Click here](https://developer.precisely.com/apis/docs/index.html ) for detailed Documentation on Precisely APIs 
 
 
 # PreciselyAPISAndroidSDK
@@ -64,7 +64,7 @@ The following platforms are supported by Precisely SDKs:
 PreciselyAPIs Android SDK facilitates you to build Android applications using Precisely APIs.
 ### Getting Started
 To get started with Android SDK, you must first register at [Precisely APIs Home Page](https://developer.precisely.com/) and obtain your API Key and Secret to get started with the Android SDK and call Precisely APIs.
-For more information refer to [‘Getting Started with Android SDK’](https://developer.precisely.com/apis/docs/index.html#Java%20SDK/java_intro.html) section in documentation.
+For more information refer to [‘Getting Started with Android SDK’](https://developer.precisely.com/apis/docs/index.html#Android%20SDK/android_intro.html) section in documentation.
 
 
 ## Requirements
