@@ -98,7 +98,7 @@ Add this dependency to your project's POM:
 <dependency>
     <groupId>com.precisely.apis</groupId>
     <artifactId>PreciselyAPISJavaSDK</artifactId>
-    <version>11.6.0</version>
+    <version>11.7.0</version>
     <scope>compile</scope>
 </dependency>
 ```
@@ -108,7 +108,7 @@ Add this dependency to your project's POM:
 Add this dependency to your project's build file:
 
 ```groovy
-compile "com.precisely.apis:PreciselyAPISJavaSDK:11.6.0"
+compile "com.precisely.apis:PreciselyAPISJavaSDK:11.7.0"
 ```
 
 ### Others
@@ -119,7 +119,7 @@ At first generate the JAR by executing:
 
 Then manually install the following JARs:
 
-* target/PreciselyAPISJavaSDK-11.6.0.jar
+* target/PreciselyAPISJavaSDK-11.7.0.jar
 * target/lib/*.jar
 
 ## Getting Started
@@ -283,6 +283,7 @@ Class | Method | HTTP request | Description
  - [AHJList](docs/AHJList.md)
  - [AHJPlusPSAPResponse](docs/AHJPlusPSAPResponse.md)
  - [AHJmailingAddress](docs/AHJmailingAddress.md)
+ - [AbsenteeOwner](docs/AbsenteeOwner.md)
  - [Accuracy](docs/Accuracy.md)
  - [Address](docs/Address.md)
  - [AddressTime](docs/AddressTime.md)
@@ -300,6 +301,7 @@ Class | Method | HTTP request | Description
  - [AttitudesAndMotivationTheme](docs/AttitudesAndMotivationTheme.md)
  - [AutomobileTheme](docs/AutomobileTheme.md)
  - [BaseFloodElevation](docs/BaseFloodElevation.md)
+ - [BasementType](docs/BasementType.md)
  - [BasicBoundary](docs/BasicBoundary.md)
  - [BasicBoundaryAddress](docs/BasicBoundaryAddress.md)
  - [Boundaries](docs/Boundaries.md)
@@ -309,6 +311,8 @@ Class | Method | HTTP request | Description
  - [BufferRelation](docs/BufferRelation.md)
  - [BuildgCondition](docs/BuildgCondition.md)
  - [BuildgFeaturesSqft](docs/BuildgFeaturesSqft.md)
+ - [BuildgStyle](docs/BuildgStyle.md)
+ - [BuildgType](docs/BuildgType.md)
  - [BuildingSqftSource](docs/BuildingSqftSource.md)
  - [BusinessId](docs/BusinessId.md)
  - [CaExemptions](docs/CaExemptions.md)
@@ -399,6 +403,7 @@ Class | Method | HTTP request | Description
  - [EthnicityTheme](docs/EthnicityTheme.md)
  - [EventsCount](docs/EventsCount.md)
  - [ExpenditureTheme](docs/ExpenditureTheme.md)
+ - [ExteriorWalls](docs/ExteriorWalls.md)
  - [Field](docs/Field.md)
  - [FieldV2](docs/FieldV2.md)
  - [FieldsMatching](docs/FieldsMatching.md)
@@ -431,6 +436,7 @@ Class | Method | HTTP request | Description
  - [FloodZone](docs/FloodZone.md)
  - [Foundation](docs/Foundation.md)
  - [FreeOrReducedPriceLunches](docs/FreeOrReducedPriceLunches.md)
+ - [GarageType](docs/GarageType.md)
  - [GenderTheme](docs/GenderTheme.md)
  - [GeoEnrichMetadataResponse](docs/GeoEnrichMetadataResponse.md)
  - [GeoEnrichResponse](docs/GeoEnrichResponse.md)
@@ -519,6 +525,7 @@ Class | Method | HTTP request | Description
  - [Operation](docs/Operation.md)
  - [OrganizationType](docs/OrganizationType.md)
  - [OutputParameter](docs/OutputParameter.md)
+ - [Owners](docs/Owners.md)
  - [PBKeyAddressRequest](docs/PBKeyAddressRequest.md)
  - [PBKeyResponse](docs/PBKeyResponse.md)
  - [PBKeyResponseList](docs/PBKeyResponseList.md)
@@ -574,7 +581,9 @@ Class | Method | HTTP request | Description
  - [Risk](docs/Risk.md)
  - [RiskAddress](docs/RiskAddress.md)
  - [Road](docs/Road.md)
+ - [RoofCoverType](docs/RoofCoverType.md)
  - [RoofFrameType](docs/RoofFrameType.md)
+ - [RoofShapeType](docs/RoofShapeType.md)
  - [RoofType](docs/RoofType.md)
  - [RouteBoundary](docs/RouteBoundary.md)
  - [RouteDelivery](docs/RouteDelivery.md)
@@ -649,6 +658,7 @@ Class | Method | HTTP request | Description
  - [Url](docs/Url.md)
  - [UseTax](docs/UseTax.md)
  - [UseTaxRate](docs/UseTaxRate.md)
+ - [Vacancy](docs/Vacancy.md)
  - [ValidateEmailAddressAPIRequest](docs/ValidateEmailAddressAPIRequest.md)
  - [ValidateEmailAddressAPIResponse](docs/ValidateEmailAddressAPIResponse.md)
  - [ValidateEmailAddressInput](docs/ValidateEmailAddressInput.md)
