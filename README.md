@@ -46,7 +46,7 @@
 
 * [Email Verification](https://developer.precisely.com/apis/emailverification): Email address validation and protection. The Email Verification API corrects and validates your email addresses to protect your database from invalid, toxic and undesirable email addresses. We help you avoid a damaged sender reputations by flagging those bouncing emails, spam trap hits, honeypots, stale lists and do-not-contact list before you have a chance to use them.
 
-* [Addresses](https://developer.precisely.com/apis/addresses): Gather multiple Addresses if you don’t have them and use these to query all other Precisely APIs. The Addresses API accepts names of a boundary such as zip code, neighborhood, county, and city—as well as your custom geographic boundaries or drivetimes & drive distances—and returns all known & valid Addresses associated with these names, or Addresses contained with the supplied or chosen geographic boundary.
+* [Addresses](https://developer.precisely.com/apis/addresses): Gather multiple Addresses if you donâ€™t have them and use these to query all other Precisely APIs. The Addresses API accepts names of a boundary such as zip code, neighborhood, county, and cityâ€”as well as your custom geographic boundaries or drivetimes & drive distancesâ€”and returns all known & valid Addresses associated with these names, or Addresses contained with the supplied or chosen geographic boundary.
 
 * [Phone Verification](https://developer.precisely.com/apis/phoneverification): The Phone Verification API accepts any phone number as input and returns verification information, Service Provider name, and more. Useful to verify if phone numbers exist to reduce fraud and improve communications.
 
@@ -66,7 +66,7 @@ The following platforms are supported by Precisely SDKs:
 PreciselyAPIs Android SDK facilitates you to build Android applications using Precisely APIs.
 ### Getting Started
 To get started with Android SDK, you must first register at [Precisely APIs Home Page](https://developer.precisely.com/) and obtain your API Key and Secret to get started with the Android SDK and call Precisely APIs.
-For more information refer to [‘Getting Started with Android SDK’](https://developer.precisely.com/apis/docs/index.html#Android%20SDK/android_intro.html) section in documentation.
+For more information refer to [â€˜Getting Started with Android SDKâ€™](https://developer.precisely.com/apis/docs/index.html#Android%20SDK/android_intro.html) section in documentation.
 
 
 ## Requirements
@@ -129,7 +129,7 @@ Please follow the [installation](#installation) instruction and execute the foll
 
 import com.precisely.ApiException;
 import com.precisely.apis.model.AddressesResponse;
-import com.precisely.apis.AddressesServiceApi
+import com.precisely.apis.AddressesServiceApi;
 
 public class AddressesServiceApiExample {
     public static void main(String[] args) {
@@ -146,7 +146,7 @@ public class AddressesServiceApiExample {
             String maxCandidates = "3";
             String page = "1";
 
-            AddressesResponse response = api.getAddressesbyBoundaryName(country, areaName1, areaName2, areaName3, areaName4, postCode, maxCandidates, page, null);
+            AddressesResponse response = api.getAddressesbyBoundaryName(country, areaName1, areaName2, areaName3, areaName4, postCode, maxCandidates, page);
 			System.out.println(response);
 
         } catch (ApiException e) {
