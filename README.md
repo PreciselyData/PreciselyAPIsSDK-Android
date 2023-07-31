@@ -99,7 +99,7 @@ Add this dependency to your project's POM:
 <dependency>
     <groupId>com.precisely.apis</groupId>
     <artifactId>PreciselyAPISJavaSDK</artifactId>
-    <version>16.0.0</version>
+    <version>16.0.1</version>
     <scope>compile</scope>
 </dependency>
 ```
@@ -109,7 +109,7 @@ Add this dependency to your project's POM:
 Add this dependency to your project's build file:
 
 ```groovy
- implementation "com.precisely.apis:PreciselyAPISJavaSDK:16.0.0"
+ implementation "com.precisely.apis:PreciselyAPISJavaSDK:16.0.1"
 ```
 
 ### Others
@@ -120,7 +120,7 @@ At first generate the JAR by executing:
 
 Then manually install the following JARs:
 
-* target/PreciselyAPISJavaSDK-16.0.0.jar
+* target/PreciselyAPISJavaSDK-16.0.1.jar
 * target/lib/*.jar
 
 ## Getting Started
@@ -281,6 +281,7 @@ Class | Method | HTTP request | Description
  - [AbsenteeOwner](docs/AbsenteeOwner.md)
  - [Accuracy](docs/Accuracy.md)
  - [Address](docs/Address.md)
+ - [Address1](docs/Address1.md)
  - [AddressTime](docs/AddressTime.md)
  - [AddressType](docs/AddressType.md)
  - [AddressesByBoundaryRequest](docs/AddressesByBoundaryRequest.md)
