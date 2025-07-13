@@ -27,8 +27,6 @@
 
 * [911/PSAP](https://developer.precisely.com/apis/911): Emergency call handling. Integrate Public Safety Answering Point (PSAP) administrative call routing information plus Authority Having Jurisdiction (AHJ) phone numbers into your emergency services products and services. The 911/PSAP API retrieves 10-digit phone numbers and local contact info with the input of a location coordinate. Useful for emergency services administrators, call handlers, and dispatchers.
 
-* [Demographics](https://developer.precisely.com/apis/demographics) : Audience Enrichment. Add local demographics and lifestyle segmentation to your people profiles. The Demographics & Lifestyle API returns household demographics and lifestyle characteristics with the input of an address or location coordinate. Know more about your customers and their customers.
-
 * [Local Tax](https://developer.precisely.com/apis/localtax): Local Tax. Add hyperlocal tax rates to your applications, business processes, and workflows. The Local Tax API returns local tax rates with the input of location coordinates or addresses. Critical for any billing, commerce, payment, or payroll application or service.
 
 * [Telecomm Info](https://developer.precisely.com/apis/telecomm): Service Provider Intelligence. Identify Local Exchange Carrier presence, area codes, exchanges, and more within a Rate Center area. The Telecomm Info API retrieves Incumbent Local Exchange Carrier (ILEC) doing-business-as names along with NPA/NXX, LATA, and phone number ranges with the input of an address or location coordinates. Useful for local telecommunications competitive intelligence, partnerships, and provisioning subscribers.
@@ -179,13 +177,6 @@ Class | Method | HTTP request | Description
 *AddressesServiceApi* | [**getAddressesCountbyBoundary**](docs/AddressesServiceApi.md#getAddressesCountbyBoundary) | **POST** /addresses/v1/addresscount/byboundary | Addresses count by Boundary.
 *AddressesServiceApi* | [**getAddressesbyBoundary**](docs/AddressesServiceApi.md#getAddressesbyBoundary) | **POST** /addresses/v1/address/byboundary | Addresses by Boundary.
 *AddressesServiceApi* | [**getAddressesbyBoundaryName**](docs/AddressesServiceApi.md#getAddressesbyBoundaryName) | **GET** /addresses/v1/address/byboundaryname | Addresses by Boundary Name.
-*DemographicsServiceApi* | [**getDemographicsAdvanced**](docs/DemographicsServiceApi.md#getDemographicsAdvanced) | **POST** /demographics-segmentation/v1/advanced/demographics | Demographics Advanced Endpoint
-*DemographicsServiceApi* | [**getDemographicsBasic**](docs/DemographicsServiceApi.md#getDemographicsBasic) | **GET** /demographics-segmentation/v1/basic/demographics | Demographics Basic
-*DemographicsServiceApi* | [**getDemographicsByAddress**](docs/DemographicsServiceApi.md#getDemographicsByAddress) | **GET** /demographics-segmentation/v1/demographics/byaddress | Demographics By Address.
-*DemographicsServiceApi* | [**getDemographicsByBoundaryIds**](docs/DemographicsServiceApi.md#getDemographicsByBoundaryIds) | **GET** /demographics-segmentation/v1/demographics/byboundaryids | Demographics By Boundaryids.
-*DemographicsServiceApi* | [**getDemographicsByLocation**](docs/DemographicsServiceApi.md#getDemographicsByLocation) | **GET** /demographics-segmentation/v1/demographics/bylocation | Demographics By Location.
-*DemographicsServiceApi* | [**getSegmentationByAddress**](docs/DemographicsServiceApi.md#getSegmentationByAddress) | **GET** /demographics-segmentation/v1/segmentation/byaddress | Segmentation By Address.
-*DemographicsServiceApi* | [**getSegmentationByLocation**](docs/DemographicsServiceApi.md#getSegmentationByLocation) | **GET** /demographics-segmentation/v1/segmentation/bylocation | Segmentation By Location.
 *EmailVerificationServiceApi* | [**validateEmailAddress**](docs/EmailVerificationServiceApi.md#validateEmailAddress) | **POST** /emailverification/v1/validateemailaddress/results.json | ValidateEmailAddress
 *GeocodeServiceApi* | [**geocode**](docs/GeocodeServiceApi.md#geocode) | **GET** /geocode/v1/{datapackBundle}/geocode | Get Forward Geocode(Basic/Premium/Advanced)
 *GeocodeServiceApi* | [**geocodeBatch**](docs/GeocodeServiceApi.md#geocodeBatch) | **POST** /geocode/v1/{datapackBundle}/geocode | Post Forward Geocode
@@ -354,12 +345,6 @@ Class | Method | HTTP request | Description
  - [CrimeRiskResponseList](docs/CrimeRiskResponseList.md)
  - [Crs](docs/Crs.md)
  - [DamageGroup](docs/DamageGroup.md)
- - [Demographics](docs/Demographics.md)
- - [DemographicsAdvancedPreferences](docs/DemographicsAdvancedPreferences.md)
- - [DemographicsAdvancedRequest](docs/DemographicsAdvancedRequest.md)
- - [DemographicsGeometry](docs/DemographicsGeometry.md)
- - [DemographicsGeometryCRC](docs/DemographicsGeometryCRC.md)
- - [DemographicsThemesV2](docs/DemographicsThemesV2.md)
  - [Depth](docs/Depth.md)
  - [DirectionGeometry](docs/DirectionGeometry.md)
  - [Distance](docs/Distance.md)
@@ -566,8 +551,6 @@ Class | Method | HTTP request | Description
  - [SchoolProfile](docs/SchoolProfile.md)
  - [SchoolRanking](docs/SchoolRanking.md)
  - [SchoolsNearByResponse](docs/SchoolsNearByResponse.md)
- - [Segmentation](docs/Segmentation.md)
- - [SegmentationThemes](docs/SegmentationThemes.md)
  - [SeverityGroup](docs/SeverityGroup.md)
  - [ShoreLineDistance](docs/ShoreLineDistance.md)
  - [Sic](docs/Sic.md)
